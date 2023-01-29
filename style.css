@@ -30,7 +30,8 @@ a {
   color: #ff9900;
 }
 
-p {
+p,
+#footer {
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
@@ -38,4 +39,11 @@ p {
 
 #footer a + a {
   margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+  border: 1px solid #eceff2;
+  margin: 0 auto 8px;
 }
